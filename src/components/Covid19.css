@@ -1,0 +1,22 @@
+body{
+    background: black !important;
+    color: white !important;
+}
+
+.dot-img{
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    animation: dotAnimation alternate 1s infinite;
+}
+
+@keyframes dotAnimation{
+    from{
+        transform: scale(1);
+        transition: ease-in;
+    }
+    to{
+        transform: scale(1.5);
+        transition: ease-out;
+    }
+}
